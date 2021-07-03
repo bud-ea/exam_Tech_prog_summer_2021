@@ -14,7 +14,7 @@ using std::endl;
 
 int main(int argc,char*argv[])
 {
-    //cout<<"Hello, "<< argv[1] << endl;
+    cout<<"Hello, "<< argv[2] << endl;
 
     cout <<"Do you want to " <<  "solve Circle Area?" << endl;
 
