@@ -7,14 +7,12 @@
 using std::cin;
 using std::cout;
 using std::endl;
-
-int main(int argc,char*argv[])
+int main()
 {
-    cout<<"Hello, "<< argv[1] << endl;
-
-    cout <<"Do you want to " <<  "your task" << endl;
-
-    /* your code here*/
+    cout << "text sdasdasda";
+    circle crcl;
+    crcl.S(5);
+    cout << crcl.S(5)<< endl;
 
     return 0;
 }
