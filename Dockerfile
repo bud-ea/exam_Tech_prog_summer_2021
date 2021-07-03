@@ -11,8 +11,8 @@ RUN apt update -y && apt upgrade -y \
 COPY Exam_proj_QtLess/app /app/source
 
 WORKDIR /app/source
-RUN g++ *.cpp -o ../program
+RUN g++ *.cpp -o ../myProgram
 
 WORKDIR /app
 
-ENTRYPOINT [ "/app/program" ]
+ENTRYPOINT [ "/app/myProgram" ]
