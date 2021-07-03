@@ -11,3 +11,8 @@ circle::circle(double x, double y,double rad)
     y0=y;
     r=rad;
 }
+
+double circle::circumference()
+{
+    return 2 * r * 3.14;
+}
