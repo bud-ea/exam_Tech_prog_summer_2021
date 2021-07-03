@@ -11,5 +11,7 @@ git merge master
 git add --all
 git commit -m "conflicts passed"
 git push
+git tag exam_res_Letov
+git push origin exam_res_Letov
 
 https://hub.docker.com/layers/trttitrttu/exam/exam_res/images/sha256:18b489b265cd13f021911d9fce151c7e792932eb03f3d4c9755749f8ab9e5d18
