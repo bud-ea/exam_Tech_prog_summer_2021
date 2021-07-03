@@ -1,3 +1,8 @@
+/*!
+\brief методы класса,cpp файл
+
+Для квадрата
+*/
 #include "square.h"
 
 square::square()
@@ -7,6 +12,7 @@ square::square()
 
 square::square(double ver[])
 {
+    //prisvaivaem coordinates
     a_x = ver[0];
     a_y = ver[1];
     b_x = ver[2];
@@ -15,4 +21,5 @@ square::square(double ver[])
     c_y = ver[5];
     d_x = ver[6];
     d_y = ver[7];
+
 }
