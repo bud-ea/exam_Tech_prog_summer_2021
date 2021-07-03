@@ -11,7 +11,7 @@ public:
 private:
     double a_x, a_y, b_x, b_y, c_x, c_y;
     double a,b,c,p;
-    char otvet;
+    std::string otvet;
 };
 
 #endif // TRIANGLE_H
