@@ -9,6 +9,10 @@
 * Фиксация изменений `git commit -m "Информация о коммите"`
 * Пуш в удаленный репозиторий `git push`
 
+### Тегирование
+* `git tag exam_res_201-331_kulev`
+* `git push origin exam_res_201-331_kulev`
+
 ### Слияние с `master`
 * `git fetch origin master`
 * `git merge master`
