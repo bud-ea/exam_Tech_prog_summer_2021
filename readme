@@ -7,6 +7,6 @@ git push
 
 Cлияние:
 
-git checkout master
-git merge 201-352_Shchipunov
+git checkout 201-352_Shchipunov
+git merge master
 git push 
