@@ -6,8 +6,6 @@ circle::circle()
 
 }
 
-
-
 circle::circle(double x, double y,double rad)
 {
     x0=x;
