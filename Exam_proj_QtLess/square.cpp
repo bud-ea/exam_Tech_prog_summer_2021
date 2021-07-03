@@ -1,10 +1,15 @@
 #include "square.h"
-
+/**
+ * @brief square::square Конструктор по умолчанию
+ */
 square::square()
 {
 
 }
-
+/**
+ * @brief square::square Конструктор с параметрами
+ * @param ver Масссив вершин
+ */
 square::square(double ver[])
 {
     a_x = ver[0];

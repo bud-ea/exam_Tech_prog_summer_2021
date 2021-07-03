@@ -1,7 +1,10 @@
 #ifndef CIRCLE_H
 #define CIRCLE_H
 
-
+/**
+ * @brief The circle class
+ *
+ */
 class circle
 {
 public:

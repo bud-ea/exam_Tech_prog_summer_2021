@@ -1,7 +1,9 @@
 #ifndef SQUARE_H
 #define SQUARE_H
 
-
+/**
+ * @brief The square class
+ */
 class square
 {
 public:
