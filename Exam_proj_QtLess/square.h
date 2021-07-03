@@ -1,6 +1,7 @@
 #ifndef SQUARE_H
 #define SQUARE_H
 
+/*! \brief Класс  square, задает координаты x и y всех сторон квадрата*/
 
 class square
 {

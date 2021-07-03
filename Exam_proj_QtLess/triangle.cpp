@@ -1,5 +1,8 @@
 #include "triangle.h"
 
+/*! \brief Методы класса triangle
+    Задаёт координаты треугольника
+*/
 triangle::triangle()
 {
 
