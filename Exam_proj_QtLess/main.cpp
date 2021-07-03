@@ -13,10 +13,10 @@ int main(int argc,char*argv[])
 {
     cout<<"Hello, Vasilii" << endl;
 
-    double qwe[8]={0,0,3,0,3,3,0,3};
+    double qwe[8]={0,0,4,0,4,4,0,4};
     square p = square(qwe);
-    if (p.figure_square())
-        cout <<"Square" << endl;
+    if (p.p_square())
+        cout <<"Square per: " <<p.p_square()<< endl;
 
     return 0;
 }

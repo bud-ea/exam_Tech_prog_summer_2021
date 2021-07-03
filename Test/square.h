@@ -2,9 +2,6 @@
 #define SQUARE_H
 #include <cmath>
 
-/*!
- * \brief Класс квадрата
- */
 
 class square
 {

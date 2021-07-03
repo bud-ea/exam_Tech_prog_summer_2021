@@ -28,10 +28,10 @@ double square::p_square()
     cx=d_x - c_x;
     cy=d_y - c_y;
     c=sqrt(cx*cx+cy*cy);
-
     dx=a_x - d_x;
     dy=a_y - d_y;
     d=sqrt(dx*dx+dy*dy);
     summ= a+b+c+d;
     return summ;
+
 }
