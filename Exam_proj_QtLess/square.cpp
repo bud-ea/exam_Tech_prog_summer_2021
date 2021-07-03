@@ -16,3 +16,4 @@ square::square(double ver[])
     d_x = ver[6];
     d_y = ver[7];
 }
+
