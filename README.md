@@ -14,3 +14,18 @@ git commit
 
 git push --set-upstream origin 201-351_Riabov
 
+git checkout master
+
+git pull
+
+git checkout 201-351_Riabov
+
+git merge master
+
+git add -A
+
+git commit
+
+git tag Riabov_exam_res HEAD
+
+git push origin Riabov_exam_res
