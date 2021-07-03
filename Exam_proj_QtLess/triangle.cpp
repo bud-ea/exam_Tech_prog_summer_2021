@@ -1,10 +1,19 @@
 #include "triangle.h"
 
+/*!
+ * \brief triangle::triangle - конструктор класса triangle без параметров
+ */
 triangle::triangle()
 {
 
 }
 
+/*!
+ * \brief triangle::triangle - конструктор класса trinagle с параметрами
+ * \param ver - массив типа double, внутри которого находятся координаты точек
+ *
+ * Задает своим полям значения параметров
+ */
 triangle::triangle(double ver[])
 {
     a_x = ver[0];
