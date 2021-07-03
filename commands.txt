@@ -1,0 +1,11 @@
+git clone https://github.com/bud-ea/exam_Tech_prog_summer_2021.git
+git status
+git branch 201-351_lavlinsky
+git checkout 201-351_lavlinsky
+git commit .
+git push https://github.com/bud-ea/exam_Tech_prog_summer_2021.git 201-351_lavlinsky
+---------
+git fetch https://github.com/bud-ea/exam_Tech_prog_summer_2021.git
+--------------
+git checkout master
+git merge 201-351_lavlinsky
