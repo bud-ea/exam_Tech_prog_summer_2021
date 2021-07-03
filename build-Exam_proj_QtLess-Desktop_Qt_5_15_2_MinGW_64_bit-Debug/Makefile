@@ -223,6 +223,7 @@ Makefile: ../Exam_proj_QtLess/Exam_proj_QtLess.pro D:/Qt/5.15.2/mingw81_64/mkspe
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/qt_config.prf \
 		D:/Qt/5.15.2/mingw81_64/mkspecs/win32-g++/qmake.conf \
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/exclusive_builds.prf \
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/toolchain.prf \
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/default_pre.prf \
@@ -230,8 +231,8 @@ Makefile: ../Exam_proj_QtLess/Exam_proj_QtLess.pro D:/Qt/5.15.2/mingw81_64/mkspe
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/resolve_config.prf \
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/exclusive_builds_post.prf \
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/default_post.prf \
-		D:/Qt/5.15.2/mingw81_64/mkspecs/features/qml_debug.prf \
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/win32/console.prf \
+		D:/Qt/5.15.2/mingw81_64/mkspecs/features/qml_debug.prf \
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/precompile_header.prf \
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/warn_on.prf \
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/qmake_use.prf \
@@ -241,7 +242,6 @@ Makefile: ../Exam_proj_QtLess/Exam_proj_QtLess.pro D:/Qt/5.15.2/mingw81_64/mkspe
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/yacc.prf \
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/lex.prf \
 		../Exam_proj_QtLess/Exam_proj_QtLess.pro \
-		.qmake.stash \
 		D:/Qt/5.15.2/mingw81_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\Exam_proj_QtLess\Exam_proj_QtLess.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/spec_pre.prf:
@@ -397,6 +397,7 @@ D:/Qt/5.15.2/mingw81_64/mkspecs/features/qt_functions.prf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/qt_config.prf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/win32-g++/qmake.conf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/exclusive_builds.prf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/toolchain.prf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/default_pre.prf:
@@ -404,8 +405,8 @@ D:/Qt/5.15.2/mingw81_64/mkspecs/features/win32/default_pre.prf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/resolve_config.prf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/exclusive_builds_post.prf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/default_post.prf:
-D:/Qt/5.15.2/mingw81_64/mkspecs/features/qml_debug.prf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/win32/console.prf:
+D:/Qt/5.15.2/mingw81_64/mkspecs/features/qml_debug.prf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/precompile_header.prf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/warn_on.prf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/qmake_use.prf:
@@ -415,7 +416,6 @@ D:/Qt/5.15.2/mingw81_64/mkspecs/features/exceptions.prf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/yacc.prf:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/lex.prf:
 ../Exam_proj_QtLess/Exam_proj_QtLess.pro:
-.qmake.stash:
 D:/Qt/5.15.2/mingw81_64/mkspecs/features/build_pass.prf:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\Exam_proj_QtLess\Exam_proj_QtLess.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"

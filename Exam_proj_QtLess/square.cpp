@@ -1,4 +1,5 @@
 #include "square.h"
+#include <math.h>
 
 square::square()
 {
@@ -16,3 +17,16 @@ square::square(double ver[])
     d_x = ver[6];
     d_y = ver[7];
 }
+//*!
+//*  \brief Данная функция предназначена для  вычисления периметра квадрата
+//*  \param a - сторона квадрата
+//*  Код функции:
+//*  \code
+square::perimetr()
+{
+    double a;
+    a = sqrt((b_x * b_x - a_x * a_x) + (b_y * b_y - a_y * a_y));
+    return a;
+}
+//\endcode
+// */

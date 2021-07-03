@@ -7,6 +7,7 @@ class square
 public:
     square();
     square(double ver[]);
+    double perimetr();
 private:
     double a_x, a_y, b_x, b_y, c_x, c_y, d_x, d_y;
 };

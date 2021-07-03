@@ -7,4 +7,4 @@ CONFIG -= app_bundle
 TEMPLATE = app
 
 SOURCES +=  tst_testexam_proj_qtless.cpp \
-    ../Exam_proj_QtLess/main.cpp
+    ../Exam_proj_QtLess/square.cpp
