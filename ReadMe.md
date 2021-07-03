@@ -1,5 +1,5 @@
 Команды git:
-git clone https://github.com/Samsonov-aleksey/exam_Tech_prog_summer_2021.git
+git clone https://github.com/Nikorambus/exam_Tech_prog_summer_2021
 скопировать репозиторий
 git branch 201-331_Egel (git branch- список веток)
 создание ветки
