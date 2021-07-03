@@ -6,7 +6,7 @@ RUN apt install cmake -y
 RUN apt-get install qt5-default -y
 RUN apt install build-essential -y
 COPY . /home
-WORKDIR /home/exam_Tech_prog_summer_2021
+WORKDIR /home/pp/exam_Tech_prog_summer_2021
 RUN qmake Exam_proj_QtLess.pro
 RUN make
 RUN make install
