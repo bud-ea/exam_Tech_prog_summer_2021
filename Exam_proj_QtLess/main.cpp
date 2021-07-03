@@ -11,8 +11,8 @@ using namespace std;
  * \param argv
  * \return 0 - завершение программы
  */
-int main() {
-    cout << "Hello, " << endl;
+int main(int argc, char *argv[]) {
+    cout << "Hello, " << argv[1] << endl;
 
     cout << "Do you want to " <<  "\"Write a method for calculating the area of a square\"" << endl;
 

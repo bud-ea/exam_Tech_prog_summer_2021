@@ -8,7 +8,11 @@ RUN apt-get -y install gcc
 
 COPY . /MyProj
 
-WORKDIR /MyProj
+WORKDIR ./MyProj
+
+FROM gcc:latest
+
+
 
 RUN g++ -o myProgram main.cpp
 

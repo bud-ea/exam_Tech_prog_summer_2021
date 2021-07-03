@@ -12,7 +12,7 @@ class square
 public:
     square();
     square(double ver[]);
-    double square_of_square(double array[8]);
+    double square_of_square(double array[]);
 
 private:
     double arr[8]; ///< \brief Массив координат

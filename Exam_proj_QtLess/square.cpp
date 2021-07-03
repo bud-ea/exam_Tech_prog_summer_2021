@@ -12,7 +12,6 @@ square::square() {
  * \param ver - хранит в себе координаты вершин квадрата
  *
  * - Задает своим полям значения параметров
- * - Выводит площадь созданной фигуры
  */
 square::square(double ver[]) {
     cout << "\nSquare created" << endl;
@@ -30,7 +29,7 @@ square::square(double ver[]) {
  * - Если фигура не наклонена, считает ее стороны и перемножает их
  * - Если фигура наклонена, считает ***диагонали*** (типа), перемножает их и делит пополам
  */
-double square::square_of_square(double array[8]) {
+double square::square_of_square(double array[]) {
     double result = 0.0;
 
     if (array[0] == array[6] && array[1] == array[3]) {
@@ -45,5 +44,6 @@ double square::square_of_square(double array[8]) {
         result = (x1 * y1) / 2;
     }
 
-    return result;
+    if (result) return result;
+    else return 0;
 }
