@@ -24,10 +24,10 @@ square::square(double ver[])
 }
 void Area_square()
 {
-    double a;
+    double a_x, a_y, b_x, b_y;
 
-        cout << "Введите сторону квадрата: ";
+        cout << "Введите координаты сторон квадрата: ";
 
-        cin >> a;
-        cout << a*a;
+        cin >> a_y >> b_y;
+        cout << (a_y-b_y) * (a_y-b_y);
 }
