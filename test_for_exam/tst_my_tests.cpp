@@ -1,5 +1,6 @@
 #include <QtTest>
-#include"/Users/andreybesedin/Downloads/exam_Tech_prog_summer_2021-master/Exam_proj_QtLess/triangle.h"
+#include <triangle.h>
+
 // add necessary includes here
 
 class my_tests : public QObject
