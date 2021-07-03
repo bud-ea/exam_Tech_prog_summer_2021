@@ -14,7 +14,8 @@ int main(int argc,char*argv[])
 
     cout <<"Do you want to " <<  "your task" << endl;
 
-    /* your code here*/
+    triangle a;
+    a.triangleper();
 
     return 0;
 }

@@ -2,7 +2,7 @@
 #define SQUARE_H
 
 
-class square
+class square /// Класс описывает квадрат
 {
 public:
     square();

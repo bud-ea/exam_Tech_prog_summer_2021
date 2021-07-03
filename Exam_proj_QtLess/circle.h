@@ -2,7 +2,7 @@
 #define CIRCLE_H
 
 
-class circle
+class circle /// Класс описывает круг
 {
 public:
     circle();
