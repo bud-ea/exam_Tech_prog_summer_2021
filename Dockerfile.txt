@@ -1,0 +1,19 @@
+FROM ubuntu:latest
+
+LABEL maintainer="kirill-pavlov-99@bk.ru"
+
+RUN apt-get -y update && apt-get install -y
+
+RUN apt-get -y install gcc
+
+COPY . /MyProj
+
+WORKDIR ./MyProj
+
+FROM gcc:latest
+
+
+
+RUN g++ -o myProgram main.cpp
+
+CMD ["./myProgram"]r 
