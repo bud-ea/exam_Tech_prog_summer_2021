@@ -43,34 +43,34 @@ void exam_tests::radiusOk()
     circle c10(32, 32, 0xDEADBEEF);
 
     qDebug("Checking for r = 1");
-    QCOMPARE(c1.getSurface(), M_PI * pow(1, 2));
+    QVERIFY2(c1.getSurface() == M_PI * pow(1, 2), "Counted radius does not match pre-defined constant");
 
     qDebug("Checking for r = 2");
-    QCOMPARE(c2.getSurface(), M_PI * pow(2, 2));
+    QVERIFY2(c2.getSurface() == M_PI * pow(2, 2), "Counted radius does not match pre-defined constant");
 
     qDebug("Checking for r = 3");
-    QCOMPARE(c3.getSurface(), M_PI * pow(3, 2));
+    QVERIFY2(c3.getSurface() == M_PI * pow(3, 2), "Counted radius does not match pre-defined constant");
 
     qDebug("Checking for r = 4");
-    QCOMPARE(c4.getSurface(), M_PI * pow(4, 2));
+    QVERIFY2(c4.getSurface() == M_PI * pow(4, 2), "Counted radius does not match pre-defined constant");
 
     qDebug("Checking for r = 3.14");
-    QCOMPARE(c5.getSurface(), M_PI * pow(3.14, 2));
+    QVERIFY2(c5.getSurface() == M_PI * pow(3.14, 2), "Counted radius does not match pre-defined constant");
 
     qDebug("Checking for r = 1.337");
-    QCOMPARE(c6.getSurface(), M_PI * pow(1.337, 2));
+    QVERIFY2(c6.getSurface() == M_PI * pow(1.337, 2), "Counted radius does not match pre-defined constant");
 
     qDebug("Checking for r = 44");
-    QCOMPARE(c7.getSurface(), M_PI * pow(44, 2));
+    QVERIFY2(c7.getSurface() == M_PI * pow(44, 2), "Counted radius does not match pre-defined constant");
 
     qDebug("Checking for r = 231");
-    QCOMPARE(c8.getSurface(), M_PI * pow(231, 2));
+    QVERIFY2(c8.getSurface() == M_PI * pow(231, 2), "Counted radius does not match pre-defined constant");
 
     qDebug("Checking for r = 0.002");
-    QCOMPARE(c9.getSurface(), M_PI * pow(0.002, 2));
+    QVERIFY2(c9.getSurface() == M_PI * pow(0.002, 2), "Counted radius does not match pre-defined constant");
 
     qDebug("Checking for r = 0xDEADBEEF");
-    QCOMPARE(c10.getSurface(), M_PI * pow(0xDEADBEEF, 2));
+    QVERIFY2(c10.getSurface() == M_PI * pow(0xDEADBEEF, 2), "Counted radius does not match pre-defined constant");
 }
 
 void exam_tests::differentCoordNoMatter()
@@ -79,7 +79,7 @@ void exam_tests::differentCoordNoMatter()
     circle c1(11, 50, 5);
     circle c2(12, 15, 5);
 
-    QCOMPARE(c1.getSurface(), c2.getSurface());
+    QVERIFY2(c1.getSurface() == c2.getSurface(), "Radiuses didn't match with different coordinates");
 }
 
 QTEST_APPLESS_MAIN(exam_tests)
