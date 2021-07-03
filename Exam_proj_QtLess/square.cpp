@@ -16,3 +16,8 @@ square::square(double ver[])
     d_x = ver[6];
     d_y = ver[7];
 }
+double square::sqArea ()
+{
+ s=(a_x*b_y-b_x*a_y)*(b_x*c_y-c_x*b_y)*(c_x*d_y-d_x*c_y)*(d_x*a_y-a_x*d_y)/2;
+ return s;
+}

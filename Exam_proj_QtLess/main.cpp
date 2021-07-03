@@ -14,7 +14,9 @@ int main(int argc,char*argv[])
 
     cout <<"Do you want to " <<  "your task" << endl;
 
-    /* your code here*/
+    double q[8]={0,0,1,0,3,3,0,1};
+    square p = square(q);
+    cout<< p.sqArea();
 
     return 0;
 }
