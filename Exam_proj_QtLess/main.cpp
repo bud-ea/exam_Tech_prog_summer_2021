@@ -20,7 +20,7 @@ int main(int argc,char*argv[])
 
     //double rad = 5;
 
-    circle a(0, 0, argc);
+    circle a(0, 0, 10);
     double res = a.circleArea();
     cout << "Circle Area = " << res;
     /* your code here*/
