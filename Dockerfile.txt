@@ -1,9 +1,9 @@
 FROM ubuntu
 
-LABEL author="Samsonov"
+LABEL author="Gurkin"
 LABEL group="201-331"
 
-RUN echo "This image made as an exam task by Samsonov"
+RUN echo "This image made as an exam task by Gurkin"
 
 RUN apt update -y && apt upgrade -y \
 && apt install -y build-essential g++
