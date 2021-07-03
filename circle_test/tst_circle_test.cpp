@@ -40,8 +40,11 @@ void circle_test::test_case2()
 }
 void circle_test::test_case3()
 {
-    circle c1 = circle(-8, 59, 228);
-    QVERIFY(c1.circumference() == 15.96);
+    circle c1 = circle(-8, 59, 1);
+    if (c1.circumference() == 6.28)
+    {
+        QFAIL("Right but wrong");
+    }
 }
 
 QTEST_APPLESS_MAIN(circle_test)
