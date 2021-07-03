@@ -1,10 +1,15 @@
 #ifndef SQUARE_H
 #define SQUARE_H
-
+/*!
+ * \brief Класс квадрата
+ */
 
 class square
 {
 public:
+    /*!
+     * \brief Конструктор по умолчанию.
+     */
     square();
     square(double ver[]);
 private:
