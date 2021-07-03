@@ -5,6 +5,7 @@
 class square
 {
 public:
+    bool figure_square();
     square();
     square(double ver[]);
 private:
