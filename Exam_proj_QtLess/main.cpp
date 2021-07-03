@@ -14,7 +14,8 @@ int main(int argc,char*argv[])
 
     cout <<"Do you want to " <<  "your task" << endl;
 
-    /* your code here*/
+    square(A);
+    void Area_square();
 
     return 0;
 }

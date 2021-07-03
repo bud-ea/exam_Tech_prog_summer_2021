@@ -1,4 +1,10 @@
 #include "square.h"
+#include <iostream>
+
+
+using std::cin;
+using std::cout;
+using std::endl;
 
 square::square()
 {
@@ -15,4 +21,13 @@ square::square(double ver[])
     c_y = ver[5];
     d_x = ver[6];
     d_y = ver[7];
+}
+void Area_square()
+{
+    double a;
+
+        cout << "Введите сторону квадрата: ";
+
+        cin >> a;
+        cout << a*a;
 }
