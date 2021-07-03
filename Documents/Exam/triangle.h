@@ -1,5 +1,7 @@
 #ifndef TRIANGLE_H
 #define TRIANGLE_H
+#include <string>
+#include <iostream>
 
 class triangle
 {
