@@ -1,16 +1,16 @@
 git clone https://github.com/Gurkin-egor/exam_Tech_prog_summer_2021.git
 скопировать репозиторий
-git branch samsonov201331 (git branch- список веток)
+git branch gurkin201331 (git branch- список веток)
 создание ветки
-git checkout master(если samsonov201331 соответсвтенно переключение на нее)
+git checkout master(если gurkin201331 соответсвтенно переключение на нее)
 переход на ветку master
 "Создаем текстовый файл "
 git add .
 индексирование всех файлов в папке для последующего коммита
 git commit -m
 коммитим(фиксируем индексированные файлы в коммите) 
-git merge samsonov201331 
-Слияние веток master с samsonov201331
+git merge gurkin201331 
+Слияние веток master с gurkin201331
 git status статус репозитория
 git tag -a -m 'B создать тег с описанием на активном коммите
  git push -u origin master 
