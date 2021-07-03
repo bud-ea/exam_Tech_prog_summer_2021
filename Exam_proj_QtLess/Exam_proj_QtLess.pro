@@ -12,4 +12,5 @@ SOURCES += \
 HEADERS += \
     circle.h \
     square.h \
-    triangle.h
+    triangle.h \
+
