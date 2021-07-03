@@ -12,9 +12,9 @@ int main(int argc,char*argv[])
 {
     cout<<"Hello, "<< argv[1] << endl;
 
-    cout <<"Do you want to " <<  "your task" << endl;
+    circle a(0, 0, 5);
 
-    /* your code here*/
+    cout << a.get_P();
 
     return 0;
 }
