@@ -1,10 +1,19 @@
+/**
+* \file
+* \brief файл реализации методов класса Triangle.
+*/
 #include "triangle.h"
-
+/**
+ * @brief triangle::triangle конструктор класса
+ */
 triangle::triangle()
 {
 
 }
-
+/**
+ * @brief triangle::triangle конструктор класса через массив координат
+ * @param ver - массив, содержащий double значения координат вершин
+ */
 triangle::triangle(double ver[])
 {
     a_x = ver[0];
