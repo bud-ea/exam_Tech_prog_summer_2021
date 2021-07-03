@@ -1,7 +1,17 @@
+/**
+ * @file
+ * @brief Заголовочный файл с описанием класса circle
+ */
 #ifndef CIRCLE_H
 #define CIRCLE_H
 
 
+/**
+ * @brief класс circle
+ *
+ * Класс "круг" с конструктором и его перегрузкой, а также
+ * полями координат и радиуса
+ */
 class circle
 {
 public:

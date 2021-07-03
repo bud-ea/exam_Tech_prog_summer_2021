@@ -12,9 +12,19 @@ int main(int argc,char*argv[])
 {
     cout<<"Hello, "<< argv[1] << endl;
 
-    cout <<"Do you want to " <<  "your task" << endl;
+    cout <<"Do you want to " <<  "check square?" << endl;
 
-    /* your code here*/
+    cout << "enter coords: ";
+    double arr[8] = {};
+    for (int i = 0; i < 8; i++)
+            cin >> arr[i];
+    //double arr[8] = {0,0,0,1,1,1,1,0};
+
+    square sq(arr);
+
+    sq.show();
+
+    sq.check_square() ? cout << "yes": cout << "no";
 
     return 0;
 }

@@ -1,7 +1,16 @@
+/**
+ * @file
+ * @brief Заголовочный файл с описанием класса triangle
+ */
 #ifndef TRIANGLE_H
 #define TRIANGLE_H
 
-
+/**
+ * @brief класс triangle
+ *
+ * Класс "треугольник" с конструктором и его перегрузкой, а также
+ * полями координат
+ */
 class triangle
 {
 public:
