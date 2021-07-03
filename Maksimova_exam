@@ -1,0 +1,142 @@
+main.cpp
+
+#include <iostream> ///библиотека ввода и вывода
+#include "triangle.h" ///поименное подключение заголовочных файлов
+#include "square.h"
+#include "circle.h"
+
+using std::cin; /// использование ввода с помощью cin
+using std::cout; /// использование ввода с помощью cout
+using std::endl; /// использование переноса на новую строку с помощью endl
+
+int main(int argc,char*argv[])
+{
+    cout<<"Hello, "<< argv[1] << endl;
+
+    cout << "Вычеслить периметр треугольника " << endl;
+
+    triangle A[6];
+    cout << A->perim();
+
+    return 0;
+}
+
+
+triangle.cpp
+#include "triangle.h"
+
+triangle::triangle() ///конструктор по умолчанию
+{
+
+}
+
+triangle::triangle(double ver[]) ///конструктор с параметрами
+{
+    a_x = ver[0];
+    a_y = ver[1];
+    b_x = ver[2];
+    b_y = ver[3];
+    c_x = ver[4];
+    c_y = ver[5];
+}
+double triangle::perim () ///функции
+{
+    double a;
+    a=a_y - a_x;
+    double b;
+    b=b_y - b_x;
+    double c;
+    c=c_y - c_x;
+    double P;
+    P = a + b + c;
+    return P;
+}
+
+
+triangle.h
+
+#ifndef TRIANGLE_H
+#define TRIANGLE_H
+
+
+class triangle ///объявление класса
+{
+public: ///публичные
+    triangle(); ///конструктор по умолчанию
+    triangle(double ver[]); ///конструктор с параметром
+    double perim();
+private: ///приватные методы
+    double a_x, a_y, b_x, b_y, c_x, c_y; ///поля класса
+};
+
+#endif // TRIANGLE_H
+
+
+square.cpp
+#include "square.h"
+
+square::square() ///конструктор по умолчанию
+{
+
+}
+
+square::square(double ver[]) ///конструктор с параметрами
+{
+    a_x = ver[0];
+    a_y = ver[1];
+    b_x = ver[2];
+    b_y = ver[3];
+    c_x = ver[4];
+    c_y = ver[5];
+    d_x = ver[6];
+    d_y = ver[7];
+}
+
+
+square.h
+#ifndef SQUARE_H
+#define SQUARE_H
+
+class square /// объявление класса квадрат
+{
+public:
+    square(); ///конструктор по умолчанию
+    square(double ver[]); ///конструктор с параметром
+private: ///приватные методы
+    double a_x, a_y, b_x, b_y, c_x, c_y, d_x, d_y; /// поля класса
+};
+
+#endif // SQUARE_H
+
+
+circle.cpp
+#include "circle.h"
+
+circle::circle() /// конструктор по умолчанию
+{
+
+}
+
+circle::circle(double x, double y,double rad) /// конструктор с параметром
+{
+    x0=x;
+    y0=y;
+    r=rad;
+}
+
+
+circle.h
+#ifndef CIRCLE_H
+#define CIRCLE_H
+
+
+class circle ///объявление класса круг
+{
+public: /// публичные методы
+    circle(); /// конструктор по умолчанию
+    circle(double x, double y,double rad); ///конструктор с параметром
+private: /// приватные методы
+    double x0, y0, r; /// поля класса
+};
+
+#endif // CIRCLE_H
