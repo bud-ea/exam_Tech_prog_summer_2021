@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "triangle.h"
 #include "square.h"
 #include "circle.h"
@@ -10,11 +11,12 @@ using std::endl;
 
 int main(int argc,char*argv[])
 {
-    cout<<"Hello, "<< argv[1] << endl;
+    cout<<"Hello, !!!" << endl;
 
-    cout <<"Do you want to " <<  "your task" << endl;
-
-    /* your code here*/
+    double qwe[8]={0,0,1,0,1,1,0,1};
+    square p = square(qwe);
+    if (p.figure_square())
+        cout <<"eeee, its square" << endl;
 
     return 0;
 }
