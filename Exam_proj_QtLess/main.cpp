@@ -10,7 +10,7 @@ using std::endl;
 
 int main(int argc,char*argv[])
 {
-    cout<<"Hello, "<< argv[1] << endl;
+    //cout<<"Hello, "<< argv[1] << endl;
 
     cout <<"Do you want to " <<  "check square?" << endl;
 
@@ -26,5 +26,6 @@ int main(int argc,char*argv[])
 
     sq.check_square() ? cout << "yes": cout << "no";
 
+    getchar();
     return 0;
 }
