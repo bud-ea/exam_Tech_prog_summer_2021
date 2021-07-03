@@ -1,9 +1,12 @@
-FROM ubuntu:latest
-LABEL maintainer="Rahmatullaev_201-352"
-
+FROM ubuntu
+LABEL maintainer="Rahmatullaev_Renat"
 RUN apt update
-
-RUN apt -y install g++
-COPY Exam_proj_QtLess /
-RUN g++ -o main main.cpp
-CMD ["./main", "Rahmatullaev_201-352"]
+RUN apt install qt5-qmake -y
+RUN apt install cmake -y
+RUN apt-get install qt5-default -y
+RUN apt install build-essential -y
+COPY . /
+RUN qmake Exam_proj_QtLess.pro
+RUN make
+RUN make install
+CMD ["./Exam_proj_QtLess"]

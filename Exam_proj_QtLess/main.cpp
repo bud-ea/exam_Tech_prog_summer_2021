@@ -9,7 +9,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int main(int argc,char*argv[])
+int main()
 {
     cout<<"Hello, !!!" << endl;
     double qwe[8]={0,0,1,0,1,1,0,1};
