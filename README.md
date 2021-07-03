@@ -1,7 +1,13 @@
+
+
 git clone https://github.com/bud-ea/exam_Tech_prog_summer_2021
-git add .
-git branch 201-352_Besdin
-git checkout 201-352_Besdin
-git commit -m "exam_res"
-git checkout master
-git merge 201-352_Besdin
+	скопировать репозиторий
+	git branch 201_352_Besdin (git branch- список веток)
+	создание ветки
+	git checkout master
+	git add .
+	сохранение всех файлов 
+  git commit -m "message"
+	git merge 201_352_Besdin
+	Слияние веток master с 201_352_Besdin
+	git status статус репозитория
