@@ -4,12 +4,12 @@
 #include <iostream>
 triangle::triangle()
 {
+    std::cin>>a_x,a_y,b_x,b_y,c_x,c_y;
     a= sqrt(pow(a_x-b_x,2)+pow(a_y-b_y,2));
     b=sqrt(pow(b_x-c_x,2)+pow(b_y-c_y,2));
     c=sqrt(pow(c_x-a_x,2)+pow(c_y-a_y,2));
     p=a+b+c;
-    p=char(p);
-    otvet->write("Answer is ",p);
+    std::cout<<("Answer is ",p);
 }
 
 triangle::triangle(double ver[])
