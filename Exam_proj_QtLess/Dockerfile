@@ -1,0 +1,18 @@
+FROM ubuntu
+
+LABEL author="Egor Rogozhin"
+LABEL group="201-331"
+
+RUN echo "This image made as an exam task by Rogozhin Egor"
+
+RUN apt update -y && apt upgrade -y \
+&& apt install -y build-essential g++
+
+COPY Exam_proj_QtLess /app/source
+
+WORKDIR /app/source
+RUN g++ *.cpp -o ../program
+
+WORKDIR /app
+
+ENTRYPOINT [ "/app/program" ]
