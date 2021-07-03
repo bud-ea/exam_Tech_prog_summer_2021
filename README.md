@@ -14,6 +14,6 @@ git push --all
 
 git checkout master
 
-git merge 201_351_Panin
+git merge 201_351_Khoroshev
 
 sha256:fe2d2fbd6eeeabcb3c2c8f9260d7328e10066ab72ec93fb32190d456d1378e00
