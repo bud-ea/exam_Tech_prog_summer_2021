@@ -12,7 +12,7 @@ public:
     ~Tests_Triangle();
 
 private slots:
-    void test_triangle_perimetr(double answer, int* par);
+    void test_triangle_perimetr(double answer, double* par);
     void test_data();
 
 };
@@ -29,7 +29,7 @@ Tests_Triangle::~Tests_Triangle()
 void Tests_Triangle::test_data()
 {
     double  answer = 12.837;
-    int par[6] = {3,5,6,7,8,9};
+    double par[6] = {3,5,6,7,8,9};
     test_triangle_perimetr(answer, par);
 
     answer = 19.908;
@@ -41,11 +41,11 @@ void Tests_Triangle::test_data()
     par[5] = 11;
     test_triangle_perimetr(answer, par);
 }
-void Tests_Triangle::test_triangle_perimetr(double answer, int* par)
+void Tests_Triangle::test_triangle_perimetr(double answer, double* par)
 {
 
-    triangle tri;
-    QVERIFY(answer == tri.perimetr(par[0], par[1], par[2], par[3], par[4], par[5])/1000);
+    triangle tri(par);
+    QVERIFY(answer == tri.perimetr()/1000);
 }
 
 QTEST_APPLESS_MAIN(Tests_Triangle)
