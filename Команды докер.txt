@@ -1,0 +1,8 @@
+docker run <name_of_container> <command_for_container> - докер-клиент нашел образ, загрузил контейнер и запустил команду внутри этого контейнера.
+docker ps - выводит на экран список всех запущенных контейнеров.
+docker ps -a - список всех контейнеров, которые мы запускались.
+docker rm <container_id> - удаление контейнера с заданным id, можно задавать сразу несколько id
+docker rm $(docker ps -a -q -f status=exited) - удалить все контейнеры docker run -d -P --name <name_of_container> <url_of_container> - Флаг -d открепит (detach) терминал, флаг -p сделает все открытые порты публичными и случайными, флаг--name устанавливает имя, которое мы хотим дать контейнеру
+docker port <name_of_container> - показать открытые порты
+docker run -p 8888:80 <container> - указать свой порт (в примере 888:80)
+docker stop <container_id> - остановить контейнер с заданным id

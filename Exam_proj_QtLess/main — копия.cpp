@@ -11,12 +11,12 @@ using std::endl;
 
 int main(int argc,char*argv[])
 {
-    cout<<"Hello, Vasilii" << endl;
+    cout<<"Hello, Valeriya" << endl;
 
-    double qwe[8]={0,0,3,0,3,3,0,3};
+    double qwe[8]={0,0,10,0,10,10,0,10};
     square p = square(qwe);
     if (p.figure_square())
-        cout <<"Square" << endl;
+        cout <<"square" << endl;
 
     return 0;
 }
