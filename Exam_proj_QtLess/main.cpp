@@ -3,18 +3,19 @@
 #include "square.h"
 #include "circle.h"
 
-
 using std::cin;
 using std::cout;
 using std::endl;
 
-int main(int argc,char*argv[])
+int main(int argc, char* argv[])
 {
-    cout<<"Hello, "<< argv[1] << endl;
+    cout << "You will now proceed to task 12" << endl;
 
-    cout <<"Do you want to " <<  "your task" << endl;
+    double radius = atof(argv[1]);
+    circle c(0, 0, radius);
 
-    /* your code here*/
+    cout << "Circle radius: " << radius << endl;
+    cout << "Circle surface area is " << c.getSurface() << endl;
 
     return 0;
 }

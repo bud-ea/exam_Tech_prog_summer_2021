@@ -6,7 +6,8 @@ class circle
 {
 public:
     circle();
-    circle(double x, double y,double rad);
+    circle(double x, double y, double rad);
+    double getSurface();
 private:
     double x0, y0, r;
 };
