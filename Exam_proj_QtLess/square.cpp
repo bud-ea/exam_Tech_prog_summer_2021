@@ -1,10 +1,21 @@
 #include "square.h"
 
+/**
+* \file
+* \brief файл реализации методов класса Square.
+*/
+#include "square.h"
+/**
+ * @brief square::square конструктор класса
+ */
 square::square()
 {
 
 }
-
+/**
+ * @brief square::square конструктор класса через массив координат.
+ * @param ver - массив, содержащий double значения координат вершин
+ */
 square::square(double ver[])
 {
     a_x = ver[0];

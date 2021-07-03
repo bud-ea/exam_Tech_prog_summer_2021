@@ -1,6 +1,20 @@
+/**
+* \file
+* \brief Данный файл отвечает за реализацию класса triangle
+*
+* В данном классе представлена реализация конструкторов и методов класса triangle
+*
+*/
 #include "triangle.h"
 #include <math.h>
 #include <iostream>
+
+/**
+ * @brief square::square
+ *
+ * Конструктор класса square
+ *
+ */
 triangle::triangle()
 {
 
@@ -15,19 +29,20 @@ triangle::triangle(double ver[])
     c_x = ver[4];
     c_y = ver[5];
 }
+/**
+ * @brief triangle::triangle
+ * @param ver - массив координат вершин
+ *
+ * Перегрузка класса triangle со входным параметром
+ *
+ */
+ double triangle::perimetr()
 
-/*! double perimetr(int x1, int y1, int x2, int y2, int x3, int y3)
- * \brief Данная функция предназанчена для вычисления периметра треугольника
- * \param a, b, c - стороны треугольника
- * \param функция возвращает периметр - сумму всех сторон
- * Код функции:
- * \code
 {
    double a,b,c,p;
-   a=sqrt(pow(x2-x1,2)+pow(y2-y1,2));
-   b=sqrt(pow(x3-x1,2)+pow(y3-y1,2));
-   c=sqrt(pow(x3-x2,2)+pow(y3-y2,2));
+   a=sqrt(pow(b_x-a_x,2)+pow(b_y-a_y,2));
+   b=sqrt(pow(c_x-a_x,2)+pow(c_y-a_y,2));
+   c=sqrt(pow(c_x-b_x,2)+pow(c_y-b_y,2));
    return a+b+c;
 }
-* \endcode
-*/
+

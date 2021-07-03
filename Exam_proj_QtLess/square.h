@@ -1,3 +1,8 @@
+/**
+* \file
+* \brief заголовочный файл с описанием класса square.
+*/
+
 #ifndef SQUARE_H
 #define SQUARE_H
 

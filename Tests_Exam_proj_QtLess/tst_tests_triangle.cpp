@@ -32,7 +32,7 @@ void Tests_Triangle::test_data()
     int par[6] = {3,5,6,7,8,9};
     test_triangle_perimetr(answer, par);
 
-    answer = 14;
+    answer = 19.908;
     par[0] = 7;
     par[1] = 9;
     par[2] = 3;
