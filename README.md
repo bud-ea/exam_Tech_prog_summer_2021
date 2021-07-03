@@ -6,7 +6,7 @@ touch readme.md
 git add readme.md
 git commit -m "adding readme.md"
 git add .
-git commit -m "build-unit_tests-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug"
+git commit -m "build-unit_tests-Desktop_Qt_5_15_2"
 git add .
 git commit -m "dockerfile_exam"
 git add .
