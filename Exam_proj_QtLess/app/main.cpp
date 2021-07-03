@@ -17,5 +17,6 @@ int main(int argc, char* argv[])
     cout << "Circle radius: " << radius << endl;
     cout << "Circle surface area is " << c.getSurface() << endl;
 
+    getchar();
     return 0;
 }
