@@ -1,3 +1,8 @@
+/*!
+    \brief Класс квадрата
+
+    Задаёт координаты квадрата
+*/
 #ifndef SQUARE_H
 #define SQUARE_H
 

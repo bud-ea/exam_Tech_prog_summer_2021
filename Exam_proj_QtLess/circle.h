@@ -1,3 +1,8 @@
+/*!
+    \brief Класс окружности
+
+    Задаёт параметры окружности
+*/
 #ifndef CIRCLE_H
 #define CIRCLE_H
 
