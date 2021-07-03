@@ -1,3 +1,7 @@
+/**
+* \file
+* \brief заголовочный файл с описанием класса Circle.
+*/
 #ifndef CIRCLE_H
 #define CIRCLE_H
 

@@ -1,7 +1,15 @@
+/**
+* \file
+* \brief заголовочный файл с описанием класса Square.
+*/
 #ifndef SQUARE_H
 #define SQUARE_H
 
-
+/**
+ * @brief The square class
+ *
+ * Данный класс имеет два конструктора и поля координат вершин квадрата
+ */
 class square
 {
 public:
