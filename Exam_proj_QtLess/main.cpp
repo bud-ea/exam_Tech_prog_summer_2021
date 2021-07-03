@@ -8,13 +8,16 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-int main(int argc,char*argv[])
+int main()
 {
-    cout<<"Hello, "<< argv[1] << endl;
+    cout<<"Hello, Khoroshev Yura" << endl;
 
     cout <<"Do you want to " <<  "your task" << endl;
 
     /* your code here*/
 
+    triangle trian;
+    double per = trian.perimetr(1, 5, 6, 7, 10, 3);
+    cout << per << endl;
     return 0;
 }
