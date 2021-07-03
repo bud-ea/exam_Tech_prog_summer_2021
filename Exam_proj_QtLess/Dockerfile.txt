@@ -1,0 +1,6 @@
+FROM ubuntu
+COPY . ./MyProj
+workdir ./MyProj
+
+
+CMD ["echo", "Ягубян В.А, 201-331"]
