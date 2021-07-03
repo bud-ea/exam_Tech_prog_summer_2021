@@ -1,0 +1,11 @@
+FROM ubuntu LABEL author = "Botokaraev Kadyr" LABEL group = "201-351" 
+RUN echo "This image made as an exam task by Botokaraev Kadyr"
+RUN apt update -y && apt upgrade -y \
+&& apt install -y build-essential g++
+COPY Exam_proj_QtLess/app/source
+WORKDIR /app/source
+RUN g++ *.cpp-o../program
+WORKDIR /app
+ENTRYPOIN ["/app/program"]
+exit
+
