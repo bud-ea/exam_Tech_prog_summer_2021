@@ -7,6 +7,7 @@ class triangle
 public:
     triangle();
     triangle(double ver[]);
+    double perimetr();
 private:
     double a_x, a_y, b_x, b_y, c_x, c_y;
 };
