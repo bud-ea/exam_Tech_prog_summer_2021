@@ -1,6 +1,7 @@
 #include <math.h>
 #include "triangle.h"
-
+#include <string>
+#include <iostream>
 triangle::triangle()
 {
     a= sqrt(pow(a_x-b_x,2)+pow(a_y-b_y,2));
