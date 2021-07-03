@@ -6,13 +6,14 @@ LABEL group="201-331"
 RUN echo "This image of Vasily Skrypnik for exam."
 
 RUN apt update -y && apt upgrade -y \
-&& apt install -y build-essential g++
+&& apt install gсс -y
 
-COPY Exam_proj_QtLess /app/source
+COPY Exam_proj_QtLess /
 
-WORKDIR /app/source
-RUN g++ *.cpp -o ../program
+WORKDIR /
+RUN g++ *.cpp -o ../myProgram
 
 WORKDIR /app
 
-ENTRYPOINT [ "/app/program" ]
+ENTRYPOINT [ "/myProgram" ]
+ы
